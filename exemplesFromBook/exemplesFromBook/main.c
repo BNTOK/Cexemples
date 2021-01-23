@@ -6,9 +6,10 @@
 //
 
 #include <stdio.h>
+#include "function.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    printf("Hello, World!\n");
+    hello();
     return 0;
 }
