@@ -10,6 +10,7 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
+    printf("printed from main\n");
     hello();
     return 0;
 }

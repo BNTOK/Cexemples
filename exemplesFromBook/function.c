@@ -12,4 +12,5 @@ void hello (void)
 {
     printf("hell, World\n");
     printf("Hello, world\n");
+    printf("Say hello");
 }
