@@ -15,18 +15,16 @@ void exercise21(void)
     them: determine the ranges of the varios floating-point types
     %f print floating poin %6.2f at least 6 wide and 2 after decimal*/
 
-    char a, b ,c;
-    a = b = 80;
-    c = a + b;
-    printf("%d\n", c);
-    printf("%d\n", INT_MIN);
-    printf("%d\n", CHAR_BIT);
-    printf("%df\n", FLT_ROUNDS);
-    printf("%df\n", __FLT_RADIX__);
-    printf("%df\n", FLT_MANT_DIG);
-    printf("%df\n", FLT_DIG);
-    printf("%df\n", FLT_MIN_EXP);
-    printf("%df\n", FLT_MAX_EXP);
-    printf("%df\n", __FLT_MIN_10_EXP__);
-    printf("%df\n", __FLT_MAX_10_EXP__);
+    printf("SCHAR_MIN\t%d\n", SCHAR_MIN);
+    printf("SCHAR_MAX\t%d\n", SCHAR_MAX);
+    printf("UCHAR_MAX\t%d\n", UCHAR_MAX);
+    printf("SHRT_MIN\t%d\n", SHRT_MIN);
+    printf("SHRT_MAX\t%d\n", SHRT_MAX);
+    printf("USHRT_MAX\t%d\n", USHRT_MAX);
+    printf("INT_MIN\t\t%d\n", INT_MIN);
+    printf("INT_MAX\t\t%d\n", INT_MAX);
+    printf("UINT_MAX\t%u\n", UINT_MAX);
+    printf("LONG_MIN\t%ld\n", LONG_MIN);
+    printf("LONG_MAX\t%ld\n", LONG_MAX);
+    printf("ULONG_MAX\t%lu\n", ULONG_MAX);
 }
