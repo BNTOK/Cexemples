@@ -18,15 +18,15 @@ void exercise21(void)
     char a, b ,c;
     a = b = 80;
     c = a + b;
-    printf("%f\n", c);
+    printf("%d\n", c);
     printf("%d\n", INT_MIN);
     printf("%d\n", CHAR_BIT);
-    printf("%f\n", FLT_ROUNDS);
-    printf("%f\n", __FLT_RADIX__);
-    printf("%f\n", FLT_MANT_DIG);
-    printf("%f\n", FLT_DIG);
-    printf("%f\n", FLT_MIN_EXP);
-    printf("%f\n", FLT_MAX_EXP);
-    printf("%f\n", __FLT_MIN_10_EXP__);
-    printf("%f\n", __FLT_MAX_10_EXP__);
+    printf("%df\n", FLT_ROUNDS);
+    printf("%df\n", __FLT_RADIX__);
+    printf("%df\n", FLT_MANT_DIG);
+    printf("%df\n", FLT_DIG);
+    printf("%df\n", FLT_MIN_EXP);
+    printf("%df\n", FLT_MAX_EXP);
+    printf("%df\n", __FLT_MIN_10_EXP__);
+    printf("%df\n", __FLT_MAX_10_EXP__);
 }
